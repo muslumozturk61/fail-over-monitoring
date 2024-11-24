@@ -1,0 +1,15 @@
+networks:
+  monitoring:
+    driver: bridge
+
+services:
+  nginxserver:
+    image: nginx-lb
+    container_name: nginx-lb
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 6100:80
+    networks:
+      - monitoring

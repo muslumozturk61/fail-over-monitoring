@@ -1,0 +1,15 @@
+networks:
+  monitoring:
+    driver: bridge
+
+services:
+  sample-api-2:
+    image: sample-api
+    container_name: sample-api-2
+    ports:
+      - 6102:8080
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ServiceName=Service2
+    networks:
+      - monitoring

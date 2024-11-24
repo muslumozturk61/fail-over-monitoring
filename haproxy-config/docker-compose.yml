@@ -1,0 +1,15 @@
+version : '3'
+
+networks:
+  monitoring:
+    driver: bridge
+
+services:
+    elb:
+        image: haproxy
+        ports:
+          - "8100:8100"
+        volumes:
+          - ./haproxy:/usr/local/etc/haproxy
+        networks:
+          - monitoring
