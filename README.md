@@ -2,6 +2,10 @@
 
 Yüksek trafikli sistemlerde load balancer ile yük dağıtımı ve fail-over senaryolarını simüle etmek için hazırlanmıştır.
 
+Mimari yapıyı ve uygulamaların nasıl çalıştığını anlattığım videoya [youtubeden](https://www.youtube.com/watch?v=siKJ0Q1ERHk) izleyebilirsiniz.
+
+
+
 ## Mimari
 ![Mimari ](docs/mimari.png)
 
