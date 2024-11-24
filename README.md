@@ -1,6 +1,6 @@
-# Yüksek Trafikli sistemlerde Fail-Over Mekanizması
+# Yüksek Trafikli Sistemlerde Fail-Over Mekanizması
 
-Yüksek trafikli sistemlerde load balancer ile yük dağıtımı ve fail-over senaryolarını simüle etmek için geliştirilmiştir.
+Yüksek trafikli sistemlerde load balancer ile yük dağıtımı ve fail-over senaryolarını simüle etmek için hazırlanmıştır.
 
 ## Mimari
 ![Mimari ](docs/mimari.png)
@@ -114,3 +114,5 @@ export const options = {
     duration: '3m',
 }
 ```
+
+Kalın Sağlıcakla...
