@@ -1,5 +1,3 @@
-version : '3'
-
 networks:
   monitoring:
     driver: bridge

@@ -73,6 +73,10 @@ http://localhost:9090
 
 ### Grafana
 Aşağıdaki adresten grafana uygulamasına erişim sağlanabilir.
+
+Kullanıcı adı : admin \
+Parola: grafana
+
 ```
 http://localhost:3000
 ```

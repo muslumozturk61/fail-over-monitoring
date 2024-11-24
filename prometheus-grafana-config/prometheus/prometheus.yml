@@ -24,11 +24,6 @@ scrape_configs:
   - targets:
     - node_exporter:9100
 - job_name: 'sampleapi'
-  honor_timestamps: true
-  scrape_interval: 5s
-  scrape_timeout: 10s
-  metrics_path: /metrics
-  scheme: http
   static_configs:
   - targets:
     - host.docker.internal:6101
