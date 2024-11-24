@@ -1,1 +1,1 @@
-k6 run api.js
+k6 run api-nginx.js
